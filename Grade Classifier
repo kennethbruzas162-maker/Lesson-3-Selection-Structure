@@ -8,19 +8,19 @@ int main() {
     scanf("%d" , &grade);
     
     if (grade >= 90) {
-        printf("Grade: A");
+        printf("Your Grade is A");
     }
     else if(grade >= 80) {
-        printf("Grade: B");
+        printf("Your Grade is B");
     }
     else if(grade >= 70) {
-        printf("Grade: C");
+        printf("Your Grade is C");
     }
     else if(grade >= 60) {
-        printf("Grade: D");
+        printf("Your Grade is D");
     }
      else if(grade < 60) {
-        printf("Grade: F");
+        printf("Your Grade is F");
     }
     return 0;
 }
